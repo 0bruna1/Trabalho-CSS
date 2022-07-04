@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=VT323&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+#menu{
+    background-color:rgb(0, 0, 0);
+    height: 65px;
+}
+
 #intro-pag{
     text-align: center;
+    padding: 70px;
+    background-image: url(/fundo\ \(1\).png);
+    background-size: 1499px;
+    background-attachment: fixed;
 }
+
+#texto-intro{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 37px;
+    padding-bottom:40px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#h2-intro{
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 53px;
+}
+
+h1{
+    color: black;
+    font-family: 'VT323', monospace;
+    font-size: 90px;
+    padding-bottom: 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    color: #ebe70e;
+    font-size:20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.texto-geral{
+    padding: 0;
+    margin: 0;
+    background-color: hwb(221 80% 0%);
+}
+
+.conteudo-padrao{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+
+.h2-conteudo{
+    font-size: 22px;
+    color:#091257;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    color: hwb(221 80% 0%);
+    text-align: center;
+    padding-top: 25px;
+}
+
